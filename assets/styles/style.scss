@@ -1,0 +1,18 @@
+$bgcolor: #fff;
+$fontcolor: #888;
+$font: Verdana, Tahoma, Sans-Serif;
+body {
+	background-color: $bgcolor;
+	text-align: center;
+	font-family: $font;
+	.container {
+		img.logo {
+			padding: 30px;
+			width: 150px;
+			text-align: center;
+		}
+		h2 {
+			color: $fontcolor;
+		}
+	}
+}
